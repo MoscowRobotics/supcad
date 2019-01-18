@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Supreme Canadian Retail Price</title>
+</head>
+<body>
+  <h1>
+    Supreme New York - Canadian Retail Price Tool
+  </h1>
+  <h2>
+    Retail Price
+    <small>(in USD)</small>
+  </h2>
+  $ <input type="number" id="RetailPrice">
+  <input type="button" onclick="Calculate()" value="calculate">
+  <ul>
+    <li>
+      Subtotal: <span id="subTotal"></span>
+    </li>
+    <li>
+      Duty: <span id="dutyTariffs"></span>
+    </li>
+    <li>
+      Tax: <span id="provincialTax"></span>
+    </li>
+    <li>
+      Shipping: <span id="shippingCharge">$20</span>
+    </li>
+    <li>
+      Total: <span id="totalAllIn"></span>
+    </li>
+  </ul>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
